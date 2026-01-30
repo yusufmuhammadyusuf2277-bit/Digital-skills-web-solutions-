@@ -1,7 +1,16 @@
-.two-column {
+.skills-list {
+  list-style: none;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px 30px;
+  gap: 12px 40px;
+}
+
+.skills-list li {
+  background: #f8f9fc;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 500;
 }
 body {
   font-family: 'Inter', sans-serif;
