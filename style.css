@@ -42,26 +42,12 @@ h1, h2 {
 
 /* Buttons */
 .btn {
-  background: #2563eb;
-  color: white;
+  background: black;
+  color: yellow;
   padding: 12px 22px;
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 15px;
-}
-
-.btn:hover {
-  background: #1e40af;
-}
-
-/* Cards */
-.card {
-  background: #f9fafb;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 10px 0;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
 }
 footer {
   text-align: center;
