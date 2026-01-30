@@ -1,6 +1,8 @@
-ul {
-  display: flex 2 row,
-    }
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+}
 body {
   font-family: 'Inter', sans-serif;
   background-color: black;
